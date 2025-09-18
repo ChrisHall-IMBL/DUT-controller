@@ -237,7 +237,7 @@ if __name__ == "__main__":
     #   3 - Fault check pattern B
     #   4 - Read out device
     #   5 - Oscilloscope grab
-    sequence=(1,1,1,1,1)
+    sequence=(0,0,0,1,1)
     print(f'sequence is {sequence} with {maxStep} steps')
     
     # Start with a writing pattern A
